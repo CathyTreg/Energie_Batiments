@@ -1,5 +1,7 @@
 # Energie_Batiments
 
+Projet réalisé dans le cadre de ma formation de DataScientist avec OpenClassrooms.
+
 Prédire la consommation d’énergie de bâtiments à l'aide de modèles de Machine Learning et expliquer les modèles.
 
 Contexte : 
