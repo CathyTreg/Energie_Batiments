@@ -1,4 +1,5 @@
 # Energie_Batiments
+
 Prédire la consommation d’énergie de bâtiments à l'aide de modèles de Machine Learning et expliquer les modèles.
 
 Contexte : 
@@ -23,4 +24,3 @@ Résultats :
 -	Prédire (avec une certaine précision) les émissions de CO2 et la consommation totale d’énergie des nouveaux bâtiments de la ville (sans effectuer de relevés) pour contribuer à l’objectif de ville neutre en émissions de carbone en 2050.
 
 Environnement de travail : Jupyter Notebook - Python (via Anaconda), librairies Numpy – Pandas – Matplotlib – Seaborn – Scikit-learn – Folium – Shap 
-
