@@ -1,8 +1,6 @@
 # Energie_Batiments
 
-Projet réalisé dans le cadre de ma formation de DataScientist avec OpenClassrooms.
-
-Prédire la consommation d’énergie de bâtiments à l'aide de modèles de Machine Learning et expliquer les modèles.
+Prédire la consommation d’énergie de bâtiments à l'aide de modèles de Machine Learning et expliquer les modèles - Projet réalisé en avril 2024 dans le cadre du parcours de formation DataScientist d'OpenClassrooms.
 
 Contexte : 
 -	La ville de Seattle a pour objectif de devenir une ville neutre en émissions de carbone en 2050.
