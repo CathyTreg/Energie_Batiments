@@ -2,25 +2,21 @@
 
 Prédire la consommation d’énergie de bâtiments à l'aide de modèles de Machine Learning et expliquer les modèles - Projet réalisé en avril 2024 dans le cadre du parcours de formation DataScientist d'OpenClassrooms.
 
-Contexte : 
--	La ville de Seattle a pour objectif de devenir une ville neutre en émissions de carbone en 2050.
--	Pour se faire, elle s’intéresse de près à la consommation et aux émissions des bâtiments non destinés à l’habitation. Malheureusement, effectuer des relevés de ces mesures pour chaque bâtiment est trop couteux.
--	Des relevés minutieux ont été effectués par les agents de la ville en 2016, et nous avons toutes ces données à disposition. Cette base contient un ensemble de bâtiments avec des données structurelles, géographiques et de mesures d’énergie.
+Contexte : Dans le cadre de son objectif de devenir neutre en émissions de carbone d'ici 2050, la ville de Seattle cherche à optimiser la gestion de la consommation d’énergie et des émissions de CO2 des bâtiments non résidentiels. Des relevés minutieux ont été effectués par la ville en 2016, contenant des informations structurelles, géographiques et énergétiques sur ses bâtiments.
+
+Objectif : Sur la base des données recueillies, prédire les émissions de CO2 et la consommation énergétique des bâtiments, sans recourir à des relevés physiques coûteux.
 
 Tâches :
--	Tester différents modèles de prédiction permettant de prédire les émissions de CO2 et la consommation totale d’énergie.
--	Evaluer l’intérêt de l’"ENERGY STAR Score" pour les prédictions, donnée actuellement fastidieuse à calculer avec l’approche utilisée.
-
-Actions : 
--	Réaliser une analyse exploratoire des datasets.
--	Réaliser le feature engineering des données : traitement des valeurs manquantes, transformations de variables (normalisation, log, etc.), création de nouvelles caractéristiques
--	Explorer les relations entre les variables et les targets
--	Simuler différents modèles de prédiction : optimiser les hyperparamètres et le choix de l’algorithme de ML (ElasticNet, SVM, GradientBoosting, RandomForest) à l’aide d’une validation croisée.
--	Evaluer rigoureusement les performances des modèles pour choisir celui qui répond au mieux à la problématique.
--	Expliquer les prédictions des 2 modèles en analysant les shapley values des modèles (caractéristiques qui ont le plus d’importance dans les modèles).
--	Déterminer l’influence de l’"ENERGY STAR Score" sur la prédiction d’émissions de CO2.
+-	Préparation et exploration des données :
+    - analyser les datasets pour comprendre les relations entre variables et cibles ;
+    - préparer les données pour le modèle : gestion des valeurs manquantes, transformations de variables (normalisation, log), et création de nouvelles caractéristiques.
+-	Modélisation :
+    - tester et simuler différents modèles de prédiction (ElasticNet, SVM, GradientBoosting, RandomForest) en optimisant les hyperparamètres et en réalisant une validation croisée pour choisir le modèle le plus performant.
+-	Interprétation des résultats :
+    - Expliquer les prédictions des modèles (Shapley values) et identifier les caractéristiques les plus influentes sur les résultats.
+    - Évaluer l'impact de l'ENERGY STAR Score sur la prédiction des émissions de CO2, afin de déterminer son utilité dans les modèles.
 
 Résultats : 
--	Prédire (avec une certaine précision) les émissions de CO2 et la consommation totale d’énergie des nouveaux bâtiments de la ville (sans effectuer de relevés) pour contribuer à l’objectif de ville neutre en émissions de carbone en 2050.
+-	Prédiction des émissions de CO2 et de la consommation énergétique des bâtiments, permettant à Seattle de mieux planifier ses actions pour atteindre ses objectifs de neutralité carbone en 2050.
 
 Environnement de travail : Jupyter Notebook - Python (via Anaconda), librairies Numpy – Pandas – Matplotlib – Seaborn – Scikit-learn – Folium – Shap 
