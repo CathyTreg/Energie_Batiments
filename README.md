@@ -8,15 +8,16 @@ Objectif : Sur la base des données recueillies, prédire les émissions de CO2 
 
 Tâches :
 -	Préparation et exploration des données :
-    - analyser les datasets pour comprendre les relations entre variables et cibles ;
-    - préparer les données pour le modèle : gestion des valeurs manquantes, transformations de variables (normalisation, log), et création de nouvelles caractéristiques.
+o	Analyser les datasets pour comprendre les relations entre variables et cibles ;
+o	Préparer les données pour le modèle : gestion des valeurs manquantes, transformations de variables (normalisation, log), et création de nouvelles caractéristiques ;
 -	Modélisation :
-    - tester et simuler différents modèles de prédiction (ElasticNet, SVM, GradientBoosting, RandomForest) en optimisant les hyperparamètres et en réalisant une validation croisée pour choisir le modèle le plus performant.
+o	Tester et simuler différents modèles de prédiction (ElasticNet, SVM, GradientBoosting, RandomForest) en optimisant les hyperparamètres et en réalisant une validation croisée pour choisir le modèle le plus performant ;
 -	Interprétation des résultats :
-    - Expliquer les prédictions des modèles (Shapley values) et identifier les caractéristiques les plus influentes sur les résultats.
-    - Évaluer l'impact de l'ENERGY STAR Score sur la prédiction des émissions de CO2, afin de déterminer son utilité dans les modèles.
+o	Expliquer les prédictions des modèles à l’aide des Shapley values et identifier les caractéristiques les plus influentes sur les résultats ;
+o	Évaluer l'impact de l'ENERGY STAR Score sur la prédiction des émissions de CO2, afin de déterminer son utilité dans les modèles.
 
 Résultats : 
--	Prédiction des émissions de CO2 et de la consommation énergétique des bâtiments, permettant à Seattle de mieux planifier ses actions pour atteindre ses objectifs de neutralité carbone en 2050.
+-	Prédictions des émissions de CO2 et de la consommation énergétique de chaque nouveau bâtiment de Seattle ;
+-	Sur la base de ces informations, la ville pourra mieux planifier ses actions pour atteindre ses objectifs de neutralité carbone en 2050.
 
-Environnement de travail : Jupyter Notebook - Python (via Anaconda), librairies Numpy – Pandas – Matplotlib – Seaborn – Scikit-learn – Folium – Shap 
+Environnement de travail : Jupyter Notebook - Python (via Anaconda), librairies : NumPy – Pandas – Matplotlib – Seaborn – scikit-learn – Folium – SHAP
